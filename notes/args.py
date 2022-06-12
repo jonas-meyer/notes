@@ -1,6 +1,5 @@
 import argparse
 import os
-import textwrap
 from datetime import datetime
 
 
@@ -12,7 +11,7 @@ def parse_args(args=None):
         add_help=True, description="Create notes using the cmdline"
     )
 
-    commands = parser.add_argument_group("Singular Commands")
+    parser.add_argument_group("Singular Commands")
 
     description_text = """
     To create a new note, just write it on the command line! E.g:
