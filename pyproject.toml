@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "notes"
+version = "0.1.0"
+description = "Create or append a note using the commandline"
+authors = ["Jonas Meyer-Ohle <jonasmeyerohle@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "22.3.0"
+pyproject-flake8 = "0.0.1a4"
+pytest = "7.1.2"
+mypy = "0.961"
+
+[tool.poetry.scripts]
+notes = "notes.cli:cli"
+
+[tool.flake8]
+extend-ignore = "E101,E111,E114,E115,E116,E117,E12,E13,E2,E3,E401,E5,E70,W1,W2,W3,W5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
