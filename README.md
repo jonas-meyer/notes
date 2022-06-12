@@ -9,14 +9,15 @@ Further make commands can be viewed in the MAKEFILE
 
 ## Usage
 ```commandline
-# Creates a file in the current working directory with the filename YYYY-MM-DD-HH-MM-SS.txt with the content Hello World!
+# Creates a file in the current working directory with the filename 
+# YYYY-MM-DD-HH-MM-SS.txt with the content Hello World!
 notes Hello World!
 
 # Replaces the content in file test.txt if it exists with Hello World!
 notes Hello World! --replace --filename test.txt
 
 # Creates or appends (in a newline) to a file in a directory with Hello World!
-notes Hellow World! --filename directory/test.txt
+notes Hello World! --filename directory/test.txt
 ```
 Commandline arguments can be given in any order
 
