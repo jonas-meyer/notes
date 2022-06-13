@@ -1,5 +1,5 @@
 # Notes
-Notes is a cli tool that allows the user to create notes quickly using the command tool.
+Notes is a cli tool that allows the user to create notes quickly using the commandline.
 
 ## Installation
 1. Install Poetry to your system ([poetry docs](https://python-poetry.org/docs/))
@@ -22,6 +22,7 @@ notes Hello World! --filename directory/test.txt
 Commandline arguments can be given in any order
 
 `--replace or -r` can be used
+
 `--filename or -f` can be used
 
 ## Testing
