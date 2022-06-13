@@ -4,7 +4,7 @@ Notes is a cli tool that allows the user to create notes quickly using the comma
 ## Installation
 1. Install Poetry to your system ([poetry docs](https://python-poetry.org/docs/))
 2. Run the command `make install`
-3. Run the comman `poetry shell` in order to enable the virtual environment and run the cli tool
+3. Run the command `poetry shell` in order to enable the virtual environment and run the cli tool
 
 Further make commands can be viewed in the MAKEFILE
 
